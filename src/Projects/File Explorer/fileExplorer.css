@@ -1,0 +1,91 @@
+.folderWrapper {
+  width: 98%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  background: #f7ebfd;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+.FileExplorerTitle {
+  width: 98%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.folder {
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px;
+  cursor: pointer;
+  border-top: 1px solid grey;
+  border-right: 1px solid grey;
+  border-radius: 5px;
+  position: relative;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.inputContainer > span {
+  margin-top: 5px;
+}
+
+.inputContainer__input {
+  margin: 6px 0 0px 0;
+  padding: 5px;
+  display: flex;
+  border: 1px solid lightgray;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.FolderTitle,
+.btns {
+  margin: 5px 10px;
+}
+.btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+.btns button {
+  font-size: 13px;
+  background-color: rgb(255, 255, 255);
+  outline: none;
+  padding: 5px 5px;
+  color: blue;
+  border: 1px solid blue;
+  border-radius: 5px;
+}
+
+.file {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  padding-left: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.folder::after {
+  content: '---';
+  height: 100%;
+  position: absolute;
+  left: -24px;
+  top: 8px;
+}
+.FolderParent {
+  border-left: 1px solid grey;
+  border-bottom: 1px solid grey;
+  overflow: hidden;
+  border-radius: 5px;
+  background-color: white;
+}

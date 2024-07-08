@@ -1,0 +1,43 @@
+.DependentDropdownWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 98%;
+  gap: 10px;
+  border: 1px solid grey;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #e4f1ee;
+}
+.DependentDropDownTitle {
+  width: 98%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.DropDowns {
+  width: 98%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.DropDowns > .select {
+  width: 50%;
+  border-radius: 5px;
+  padding: 7px;
+  outline: none;
+  background-color: white;
+}
+.DropDowns > .select > legend {
+  background-color: white;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+.DropDowns > .select > select {
+  width: 100%;
+  border-radius: 5px;
+  padding: 7px;
+  outline: none;
+}
